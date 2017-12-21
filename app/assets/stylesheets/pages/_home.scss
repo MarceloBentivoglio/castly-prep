@@ -23,4 +23,29 @@
 
 .landing-content {
   margin-top: 70px;
+
+  h1, p {
+    font-weight: lighter;
+  }
+}
+
+.row-concept {
+  height: 500px;
+  padding: 20px 0;
+  margin-top: 10px;
+}
+
+.concept1 {
+  height: 400px;
+  width: 400px;
+  background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1513863774/concept1_jptomn.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.concierge1 {
+  height: 100vh;
+  background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1513863774/concept1_jptomn.png');
+  background-size: cover;
+  background-position: center;
 }
