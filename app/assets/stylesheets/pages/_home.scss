@@ -1,1 +1,26 @@
 // Specific CSS for your home-page
+#video-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  video {
+    object-fit: cover;
+  }
+}
+
+#video-container .overlay {
+  background: black;
+  height: 100vh;
+  opacity: 0.6;
+  text-align: center;
+  margin: 0%;
+}
+
+#logo {
+  position: absolute;
+}
+
+.landing-content {
+  margin-top: 70px;
+}
