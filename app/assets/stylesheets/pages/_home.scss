@@ -74,11 +74,32 @@ body, html {
   max-width: 1440px;
   height: 25%;
   margin: 0 auto;
+  padding: 50px;
 }
 
 .model-text {
   float: right;
-  width: 33%;
+  width: 55%;
+  margin-top: 150px;
+  h4 {
+    display: block;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+  p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+  }
+}
+
+.model-text2 {
+  float: left;
+  width: 50%;
   margin-top: 150px;
   h4 {
     display: block;
@@ -134,7 +155,45 @@ body, html {
   width: 33%;
   height: 700px;
   max-height: 700px;
-  overflow: hidden;
+  // overflow: hidden;
   background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1515873367/stylist_lndk1b.png');
+  background-size: cover;
   background-position: center;
+}
+
+// CONCIERGE CSS
+.concierge {
+  height: 100%;
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+  position: relative;
+  .title {
+    position: absolute;
+    top: 25%;
+    right: 37%;
+    h2 {
+      color: $red;
+      font-weight: 600;
+      font-size: 60px;
+      line-height: 30px;
+      width: 400px;
+      padding-left: 10px;
+      letter-spacing: 6px;
+      text-decoration: none;
+      box-shadow: inset 0 -20px 0 rgba(344, 72, 94, 0.002), inset 0 -14px 0 rgba(202, 52, 34, 0.2);
+    }
+  }
+  .description {
+    position: absolute;
+    top: 40%;
+    right: 23%;
+    p {
+      color: $black;
+      //color: rbga(210, 50, 13, 0.85) !important;
+      font-size: 25px;
+      line-height: 60px;
+      padding: 5px;
+    }
+  }
 }
