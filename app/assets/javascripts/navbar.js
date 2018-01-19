@@ -7,7 +7,7 @@ function navScroll() {
   } else {
     document.getElementById("nav").classList.add("hide");
   }
-}
+};
 
 window.onscroll = function() {
   navScroll();
