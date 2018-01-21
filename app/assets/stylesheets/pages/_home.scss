@@ -1,7 +1,6 @@
 // Specific CSS for your home-page
 
 body, html {
-    width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
@@ -42,6 +41,7 @@ body, html {
     font-weight: 600;
     font-size: 60px;
     line-height: 30px;
+    text-align: center;
     width: 400px;
     margin: 50px 0;
     padding-left: 10px;
@@ -98,64 +98,26 @@ body, html {
   height: 500px;
 }
 
-.model-img {
-  float: left;
-  padding: 65px 0;
-  width: 33%;
-  height: 700px;
-  max-height: 700px;
-  overflow: hidden;
-  background-image: url('https://res.cloudinary.com/mbentivoglio/image/upload/c_scale,h_300/v1515873373/model_rgffdd.png');
-  background-size: cover;
-  background-position: center;
-}
-.photografer-img {
-  float: left;
-  padding: 65px 0;
-  width: 33%;
-  height: 700px;
-  max-height: 700px;
-  overflow: hidden;
-  background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1515873351/photografer_lbhyys.png');
-  background-size: cover;
-  background-position: center;
-}
-.beauty_artist-img {
-  float: left;
-  padding: 65px 0;
-  width: 33%;
-  height: 700px;
-  max-height: 700px;
-  overflow: hidden;
-  background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1515873360/beauty_artist_oi1pk6.png');
-  background-size: cover;
-  background-position: center;
-}
-.stylist-img {
-  float: left;
-  padding: 65px 0;
-  width: 33%;
-  height: 700px;
-  max-height: 700px;
-  // overflow: hidden;
-  background-image: url('http://res.cloudinary.com/mbentivoglio/image/upload/v1515873367/stylist_lndk1b.png');
-  background-size: cover;
-  background-position: center;
+// CONCIERGE CSS
+
+#bg {
+  top: 0;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
 }
 
-// CONCIERGE CSS
 .concierge {
-  height: 100%;
-  background-size: cover !important;
-  background-position: center;
   color: white;
   position: relative;
   margin: 0 !important;
   padding: 0 !important;
   .title {
     position: absolute;
-    top: 25%;
-    right: 37%;
+    top: 350px;
+    right: 400px;
     h2 {
       color: $red;
       font-weight: 600;
@@ -171,7 +133,7 @@ body, html {
   .description {
     position: absolute;
     top: 40%;
-    right: 23%;
+    right: 15%;
     p {
       color: $black;
       //color: rbga(210, 50, 13, 0.85) !important;
@@ -179,5 +141,28 @@ body, html {
       line-height: 60px;
       padding: 5px;
     }
+  }
+}
+
+// Influence
+.influence {
+  position: relative;
+  top: 70px;
+  left: 0;
+  min-height: calc(100% - 70px);
+  min-width: 100%;
+
+  h2 {
+    color: $red;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 30px;
+    text-align: center;
+    width: 400px;
+    margin: 50px 0;
+    padding-left: 10px;
+    letter-spacing: 6px;
+    text-decoration: none;
+    box-shadow: inset 0 -20px 0 rgba(344, 72, 94, 0.002), inset 0 -14px 0 rgba(202, 52, 34, 0.2);
   }
 }
