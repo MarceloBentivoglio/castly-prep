@@ -265,3 +265,24 @@ body, html {
   }
 
 }
+
+// Clients
+.clients {
+  background-color: #DADBD6;
+  height: calc(100vh - 70px);
+  h1 {
+    color: $black;
+  }
+}
+
+.logo-grid1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  .logo {
+    height: auto;
+    padding: 3vw 4vw;
+    // opacity: .8;
+  }
+}
